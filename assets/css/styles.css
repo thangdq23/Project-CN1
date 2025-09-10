@@ -24,15 +24,31 @@ a {
     margin-right: auto;
 }
 
+.btn {
+    min-width: 186px;
+    text-align: center;
+    line-height: 68px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 14px;
+    background: #1ebfc1;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
 /* =============== Header ================= */
 .header {
-    background: #f5e0f6;
+    background: #fff;
 }
 
 .fixed {
     position: sticky;
     top: -52px;
     padding: 10px 0;
+    z-index: 1;
 }
 
 .header .body {
@@ -90,4 +106,268 @@ a {
 
 .header .sign-up-btn:hover {
     opacity: 0.8;
+}
+
+/* ================ Hero ================= */
+.hero {
+    padding-top: 40px;
+    padding-bottom: 79px;
+}
+
+.hero .body {
+    display: flex;
+}
+
+.hero .hero-content {
+    width: 45%;
+    padding-top: 93px;
+}
+
+.hero .sub-title {
+    color: #767e7e;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.hero .heading {
+    padding-top: 18px;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16; /* 116.129% */
+}
+
+.hero .desc {
+    max-width: 374px;
+    padding-top: 46px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.77; /* 177.778% */
+}
+
+.hero .hero-cta {
+    display: flex;
+    margin-top: 52px;
+}
+
+.hero .btn-play {
+    width: 62px;
+    height: 62px;
+    margin-left: 50px;
+    border-radius: 999px;
+    background: #fff;
+    border: #fff;
+    box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+/* Hero-right */
+.hero .hero-banner {
+    position: relative;
+    display: flex;
+    width: 55%;
+    margin-left: auto;
+}
+
+.hero .hero-banner .images {
+    width: 576px;
+    height: 623px;
+    margin-left: auto;
+    object-fit: cover;
+}
+
+.hero .schedules {
+    width: 124px;
+    height: 132px;
+    position: absolute;
+    bottom: 46px;
+    left: 0;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+}
+
+.hero .schedules .title {
+    text-align: center;
+    margin-top: 16px;
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .schedules .row {
+    width: 74px;
+    height: 6px;
+    margin-top: 12px;
+    margin-left: 26px;
+    border-radius: 3px;
+    background: #edf1f5;
+}
+
+.hero .schedules .bar {
+    width: 39px;
+    height: 6px;
+    border-radius: 3px;
+    background: #fb9899;
+}
+
+.hero .schedules .row:nth-of-type(3) .bar {
+    width: 51px;
+}
+
+.hero .schedules .row:nth-of-type(4) .bar {
+    width: 33px;
+}
+
+.hero .schedules .row:nth-of-type(5) {
+    width: 26px;
+    margin-left: 50px;
+}
+
+.hero .hero-banner .courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 149px;
+    left: 25px;
+    width: 157px;
+    height: 75px;
+    gap: 0 16px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+}
+
+.hero .hero-banner .courses .block {
+    width: 36px;
+    height: 40px;
+    background: #ff8282;
+    border-radius: 10px 5px 5px 5px;
+}
+
+.hero .hero-banner .courses .block .row {
+    width: 28px;
+    height: 4px;
+    margin-top: 28px;
+    margin-left: 5px;
+    background: #fff;
+    border-radius: 999px;
+}
+
+.hero .hero-banner .sub-title {
+    width: 55px;
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.hero .hero-banner .student {
+    position: absolute;
+    right: 45px;
+    bottom: 41px;
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0 12px 80px 0 rgba(0, 0, 0, 0.05);
+}
+
+.hero .hero-banner .student .title {
+    display: flex;
+    margin-top: 17px;
+    margin-left: 35px;
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .hero-banner .student .block-avatar {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.hero .hero-banner .student .avatar {
+    width: 33px;
+    height: 33px;
+    margin-left: -6px;
+    object-fit: cover;
+    border-radius: 999px;
+}
+
+.hero .hero-banner .student .avatar:nth-child(1) {
+    margin-left: 0;
+}
+
+.hero .hero-banner .avatar.avt-default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1ebfc1;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* ========================= Features =========================== */
+.features {
+    margin-top: 130px;
+}
+
+.features .sub-title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .heading {
+    width: 577px;
+    padding-top: 18px;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33; /* 133.333% */
+}
+
+.features .feature-top .desc {
+    width: 580px;
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.features .feature-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.features .item {
+    width: 220px;
+}
+
+.features .thumb {
+    width: 102px;
+    height: 106px;
+    object-fit: cover;
+}
+
+.features .title {
+    padding: 26px 0 16px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features .desc {
+    width: 250px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.68; /* 168.75% */
 }
