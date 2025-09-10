@@ -348,7 +348,7 @@ a {
 }
 
 .features .item {
-    width: 220px;
+    width: 250px;
 }
 
 .features .thumb {
@@ -370,4 +370,125 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.68; /* 168.75% */
+}
+
+/* =================== popular ======================= */
+.popular {
+    margin-top: 130px;
+}
+
+.popular .popular-top .sub-title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.popular .popular-top .heading {
+    padding-top: 18px;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.popular .popular-top .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+
+.popular .popular-top .desc {
+    width: 525px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.77; /* 177.778% */
+}
+
+.popular .popular-top .view {
+    color: #1ebfc1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.popular .popular-list {
+    display: flex;
+    gap: 0 47px;
+    margin-top: 79px;
+}
+
+.popular .item {
+    position: relative;
+    flex: 1;
+}
+
+.popular .thumb {
+    width: 100%;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.6;
+}
+
+.popular .card {
+    position: absolute;
+    bottom: -124px;
+    left: 17px;
+    width: 325px;
+    height: 195px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+}
+
+.popular .card-list {
+    padding: 18px 35px 0 25px;
+}
+
+.popular .card .title {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.popular .card strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.popular .card .desc {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.popular .card .desc:nth-of-type(1) {
+    line-height: 33px;
+    padding: 16px 0 6px;
+}
+
+.popular .card .desc:nth-of-type(2) {
+    padding-bottom: 18px;
+}
+
+.popular .card .stats {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.popular .card .stats::before {
+    display: inline-block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    background: #1ebfc1;
+    border-radius: 999px;
+}
+
+.popular .card .stats:nth-of-type(1) {
+    margin-right: 10px;
 }
