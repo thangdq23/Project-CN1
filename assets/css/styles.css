@@ -374,6 +374,7 @@ a {
 
 /* =================== popular ======================= */
 .popular {
+    height: 778px;
     margin-top: 130px;
 }
 
@@ -472,13 +473,13 @@ a {
     padding-bottom: 18px;
 }
 
-.popular .card .stats {
+.popular .card .stat {
     color: #9da6a5;
     font-size: 1.4rem;
     font-weight: 400;
 }
 
-.popular .card .stats::before {
+.popular .card .stat::before {
     display: inline-block;
     content: "";
     width: 6px;
@@ -489,6 +490,47 @@ a {
     border-radius: 999px;
 }
 
-.popular .card .stats:nth-of-type(1) {
+.popular .card .stat:nth-of-type(1) {
     margin-right: 10px;
+}
+
+/* =================== Stats ======================= */
+.stats {
+    margin-top: 260px;
+}
+
+.stats .body {
+    width: 862px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stats .stats-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 190px;
+}
+
+.stats .item {
+    flex: 1;
+}
+
+.stats .data {
+    display: block;
+    text-align: center;
+    margin-bottom: 11px;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.stats .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
 }
