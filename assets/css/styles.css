@@ -25,6 +25,7 @@ a {
 }
 
 .btn {
+    display: inline-block;
     min-width: 186px;
     text-align: center;
     line-height: 68px;
@@ -225,7 +226,7 @@ a {
     margin-left: 50px;
 }
 
-.hero .hero-banner .courses {
+.hero .hero-banner .course {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,14 +241,14 @@ a {
     box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
 }
 
-.hero .hero-banner .courses .block {
+.hero .hero-banner .course .block {
     width: 36px;
     height: 40px;
     background: #ff8282;
     border-radius: 10px 5px 5px 5px;
 }
 
-.hero .hero-banner .courses .block .row {
+.hero .hero-banner .course .block .row {
     width: 28px;
     height: 4px;
     margin-top: 28px;
@@ -658,4 +659,35 @@ a {
     height: 92px;
     top: 0;
     left: 100px;
+}
+
+/* =================== Courses ======================= */
+.courses {
+    margin-top: 130px;
+    background: #def6f5;
+}
+
+.courses .body {
+    display: flex;
+    align-items: center;
+    padding: 76px 0 88px;
+}
+
+.courses .heading {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.courses .desc {
+    padding-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.courses .course-cta {
+    margin-top: 20px;
+    margin-left: 410px;
 }
