@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    height: 10000px;
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
@@ -690,4 +689,93 @@ a {
 .courses .course-cta {
     margin-top: 20px;
     margin-left: 410px;
+}
+
+/* =================== Footer ======================= */
+.footer .body {
+    padding-top: 131px;
+}
+
+.footer .footer-list {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 0 140px;
+    flex-direction: row;
+}
+
+.footer .item {
+    align-self: flex-start;
+}
+
+.footer .item .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .item .item-list {
+    padding-top: 26px;
+}
+
+.footer .item .item-list a {
+    display: flex;
+    align-items: center;
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer .item .item-list a + a {
+    padding-top: 18px;
+}
+
+.footer .item:nth-of-type(5) .item-list .twitter::before {
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../icon/Twitter.jpg);
+    margin-right: 10px;
+    border-radius: 999px;
+}
+
+.footer .item:nth-of-type(5) .item-list .facebook::before {
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../icon/Facebook.jpg);
+    margin-right: 10px;
+    border-radius: 999px;
+}
+
+.footer .item:nth-of-type(5) .item-list .instagram::before {
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../icon/Instagram.jpg);
+    margin-right: 10px;
+    border-radius: 999px;
+}
+
+.footer .item:nth-of-type(5) .item-list .linkedin::before {
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../icon/Linkedin.jpg);
+    margin-right: 10px;
+    border-radius: 999px;
+}
+
+.footer .desc {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
 }
